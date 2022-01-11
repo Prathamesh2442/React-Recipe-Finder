@@ -42,7 +42,7 @@ const RecipeComponent = (props) => {
           </table>
         </DialogContent>
         <DialogActions>
-          <SeeNewTab onClick={() => window.open(`https://www.youtube.com/results?search_query=${label}`)}>Open Yt</SeeNewTab>
+          <SeeNewTab onClick={() => window.open(`https://www.youtube.com/results?search_query=${label}`)}>Search on YT</SeeNewTab>
           <SeeMoreText onClick={() => setShow("")}>Close</SeeMoreText>
         </DialogActions>
       </Dialog>
