@@ -31,7 +31,7 @@
 
 ![two](https://user-images.githubusercontent.com/78137711/148690527-7da320dd-78fa-438e-8d82-7643965bbf89.png)
 
-![three](https://user-images.githubusercontent.com/78137711/148690531-1bf22b35-a64e-496c-95af-e4bc5e991e17.png)
+![three](https://user-images.githubusercontent.com/78137711/148976102-c005c503-1a6b-424f-89a0-be21fc4c81a3.png)
 
 ![four](https://user-images.githubusercontent.com/78137711/148690532-0a736134-8285-44c8-9b2f-7da8006be41d.png)
 
