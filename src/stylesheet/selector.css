@@ -1,0 +1,403 @@
+label{
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
+}
+select{
+    border: none;
+    outline: none;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    color:#000;
+    letter-spacing: 1px;
+} 
+option{
+    width: 12rem;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    color:#000;
+    cursor: pointer;
+}
+option:nth-child(1){
+    background-color:blue;
+}
+option:nth-child(2){
+    background-color:steelblue;
+}
+option:nth-child(3){
+    background-color: steelblue;
+}
+option:nth-child(4){
+    background-color: steelblue;
+}
+option:nth-child(5){
+    background-color: indigo;
+    color: #fff;
+}
+option:nth-child(6){
+    background-color:maroon;
+    color: #fff;
+}
+option:nth-child(7){
+    background-color:orangered;
+    color: #fff;
+}
+option:nth-child(8){
+    background-color: red;
+    color: #fff;
+}
+.o-container{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    flex-direction: column;
+}
+.i-container{
+    width: auto;
+    height: auto;
+    padding: 1rem 2rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    z-index: 1000;
+    visibility: hidden;
+    box-shadow: 3px 3px 46px 14px rgb(0 0 0 / 60%);
+    backdrop-filter: blur(22px);
+    border-radius: 5px;
+}
+.i-container .cross{
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    cursor: pointer;
+    color: orangered;
+}
+.i-container .cross svg{
+    transition: .2s all ease-in-out;
+}
+.i-container .cross svg:hover{
+    transform: scale(1.3);
+}
+.i-container h2{
+    font-size: 2rem;
+    font-family: monospace;
+    color: orangered;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.i-container p{
+    text-align: center;
+    color: gray;
+    margin-bottom: 0.5rem;
+    font-family: system-ui;
+    font-weight: 500;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.info .box{
+    outline: none;
+    padding: 0.2rem 1rem;
+    font-size: 18px;
+    font-family: monospace;
+    margin: 0.4rem 1rem;
+    height: 2.3rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.tbox{
+    outline: none;
+    padding: 0.3rem 1rem;
+    font-size: 18px;
+    font-family: monospace;
+    margin: 0.4rem 1rem;
+    height: 6rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.info button{
+    outline: none;
+    padding: 0.2rem 1rem;
+    font-size: 18px;
+    font-family: monospace;
+    margin: 0.5rem 1rem;
+    height: 2.3rem;
+    border-radius: 5px;
+    background: orangered;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    border: 1px solid transparent;
+}
+.info button:hover{
+    background: #fff;
+    color: orangered;
+    border: 1px solid orangered;
+}
+#feed{
+    height: auto;
+    width: auto;
+    background-color: transparent;
+}
+.ifeed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ifeed button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 3px 3px 11px 7px rgba(0,0,0,0.5);
+    cursor: pointer;
+    width: 5rem;
+    position: fixed;
+    top: 88%;
+    left: -2%;
+    animation: zigzag 4s linear infinite;
+}
+.ifeed button svg{
+    margin-right:0.4rem;
+    transition: .2s all ease-in-out;
+}
+.ifeed button span{
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 500;
+    margin-right: 0.5rem;
+    transition: .2s all ease-in-out;
+}
+.ifeed button:hover svg{
+    color: orangered;
+}
+.cpr{
+    background-color:darkslategray;
+    height: auto;
+    width: 100%;
+    font-family: monospace;
+    color: #fff;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+::placeholder svg{
+    animation: animmate 4s linear infinite;
+}
+#chat{
+    height: auto;
+    width: auto;
+    background-color: transparent;
+}
+.innerchat{
+    position: fixed;
+    top: 50%;
+    left: 5%;
+}
+.innerchat button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 3px 3px 11px 7px rgba(0,0,0,0.5);
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    animation: animate 1s linear infinite;
+    position: fixed;
+    top: 74%;
+    left: 0.3%;
+}
+.innerchat button svg{
+    transition: .2s all ease-in-out;
+}
+.innerchat button:hover svg{
+    color: indigo;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(-7px);
+    }
+    15%{
+        transform: translateY(7px);
+    }
+    30%{
+        transform: translateY(-7px);
+    }
+    45%{
+        transform: translateY(7px);
+    }
+    100%{
+        transform: translateY(7px);
+    }
+}
+/* @keyframes zigzag {
+    0%{
+        left: -2%;
+    }
+    10%{
+        left: -3%;
+    }
+    20%{
+        left: -4%;
+    }
+    30%{
+        left: -5%;
+    }
+    40%{
+        left: -6%;
+    }
+    50%{
+        left: -8%;
+    }
+    60%{
+        left: -6%;
+    }
+    70%{
+        left: -5%;
+    }
+    80%{
+        left: -4%;
+    }
+    90%{
+        left: -3%;
+    }
+    100%{
+        left: -2%;
+    }
+} */
+.chatbox{
+    width: 25rem;
+    height: 26rem;
+    /* background-color: rebeccapurple; */
+    box-shadow: 3px 3px 46px 14px rgb(0 0 0 / 60%);
+    border-radius: 5px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    visibility: hidden;
+}
+.upper{
+    width: 100%;
+    height: 4rem;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 3px 3px 13px 4px rgb(0 0 0 / 68%);;
+}
+.upper h3{
+    margin-right: 3rem;
+}
+.upper RecipeImage{
+    color: #fff;
+}
+.upper svg{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+.upper svg:hover{
+    transform: scale(1.3);
+}
+.middle{
+    position: absolute;
+    height: 18.4rem;
+    width: 100%;
+    padding: 1rem 1rem;
+    font-family:inherit;
+    font-size: 500;
+    font-size: 14px;
+    overflow: scroll;
+}
+.middle .mfirst{
+    max-width: 13rem;
+    height: auto;
+    background-color: slategray;
+    border-radius: 5px;
+    box-shadow: 3px 3px 11px 0px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    padding: 0.2rem 0.4rem;
+    display: flex;
+    justify-content: flex-start;
+    text-align:left;
+    color: #000;
+}
+.middle .msecond{
+    max-width: 13rem;
+    height: auto;
+    background-color:darkgray;
+    border-radius: 5px;
+    box-shadow: 3px 3px 11px 0px;
+    margin-bottom: 0.5rem;
+    margin-left: 9rem;
+    font-weight: 500;
+    padding: 0.2rem 0.4rem;
+    display: flex;
+    justify-content:flex-start;
+    color: #000;
+}
+.bottom{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 22.4rem;
+}
+.bottom input{
+    outline: none;
+    height: 2rem;
+    width: 18rem;
+    margin-left: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px 3px rgb(0 0 0 / 40%);
+    padding: 0 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+}
+.bottom svg{
+    color: #000;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+.bottom svg:hover{
+    transform: scale(1.3);
+}
