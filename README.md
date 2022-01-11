@@ -3,7 +3,7 @@
 **Feature:-**
 1) Search food category
 2) Select food name along its ingredients and weights
-3) See full recipe from unique urls
+3) See full recipe from unique urls or automatic search on youtube.
 4) Chatbot assist (currently non-functional)
 5) Feedback form 
 
