@@ -1,6 +1,6 @@
 **Recipe-finder-App**
 
-|- Feature:-
+**Feature:-**
 1) Search food category
 2) Select food name along its ingredients and weights
 3) See full recipe from unique urls
@@ -17,9 +17,7 @@
 
 |- Along with this some extra feature like chatbot or direct youTube link provided so if you encounter any kind of problem just message on chatbox or open youTube by one click..
 
-|- src folder contains two css files selector.css and index.css and some css inbulid in App.js folder..
-
-|- All rendering done by index.js which connected to App.js, index.css & indirectly to selector.css..
+|- src folder contains two folders one is stylesheet for css and styledComponent with index.js and App.js..
 
 |- All svg images & index.html file in public folder where all javascript functions in index using script tag imported in App.js..
 
