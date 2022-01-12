@@ -14,7 +14,7 @@ const APP_KEY = "3610d1e0f96d8a74c8de794be00f8b43";
 const RecipeComponent = (props) => {
   const [show, setShow] = useState("");
 
-  const { label, image, ingredients, url } = props.recipe;
+  const { label, image, ingredients, url, mealType, dishType } = props.recipe;
   return (
     <RecipeContainer>
       <Dialog
@@ -26,6 +26,8 @@ const RecipeComponent = (props) => {
         <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Happy Cooking :)</b>
         <DialogContent>
           <RecipeName>{label}</RecipeName>
+          <RecipeName style={{color:"green"}}>Meal Type:{mealType}</RecipeName><br/>
+          <RecipeName style={{color:"green"}}>Dish Type:{dishType}</RecipeName>
           <table>
             <thead>
               <th>Ingredient</th>
@@ -66,7 +68,7 @@ const AppComponent = () => {
   const [searchQuery, updateSearchQuery] = useState("");   
   const [recipeList, updateRecipeList] = useState([]);
   const [timeoutId, updateTimeoutId] = useState(); 
-  const [choice, setchoice] = useState();
+  const [choice, setchoice] = useState("All");
 
   const fetchData = async (searchString) => {
     const response = await Axios.get(
