@@ -1,8 +1,8 @@
 **Recipe-finder-App**
 
 **Feature:-**
-1) Search food category
-2) Select food name along its ingredients and weights
+1) Search food category.
+2) Select food name along its ingredients, weights, dish type and meal type.
 3) See full recipe from unique urls or automatic search on youtube.
 4) Chatbot assist (currently non-functional)
 5) Feedback form 
@@ -31,7 +31,7 @@
 
 ![two](https://user-images.githubusercontent.com/78137711/148690527-7da320dd-78fa-438e-8d82-7643965bbf89.png)
 
-![three](https://user-images.githubusercontent.com/78137711/148976102-c005c503-1a6b-424f-89a0-be21fc4c81a3.png)
+![three](https://user-images.githubusercontent.com/78137711/149143045-26627998-3ccf-42fe-8c6d-b3aa8f2dc850.png)
 
 ![four](https://user-images.githubusercontent.com/78137711/148690532-0a736134-8285-44c8-9b2f-7da8006be41d.png)
 
